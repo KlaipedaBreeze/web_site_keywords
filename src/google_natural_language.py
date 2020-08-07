@@ -22,7 +22,7 @@ def use_gcloud(text):
     # sentiment = client.analyze_sentiment(document=document).document_sentiment
     sdf = client.analyze_entities(document=document)
     # hhh = client.classify_text(document=document)
-
+# 
     #print('Text: {}'.format(text))
     # print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
     # print(hhh)
