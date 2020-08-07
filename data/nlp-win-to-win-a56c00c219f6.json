@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nlp-win-to-win",
+  "private_key_id": "a56c00c219f6715dbaf0d5ba7da328b094db4987",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDIlMu9awXvR//U\n5jXawSY8L6KaGoErckoMv/9rRTuWJZ8xWrAEmV9fTAXzcZTpIzpkWFuh+YoU35dj\nvKMS2uWBsbnRRnb8Dmd/SYaV2dWfzTiMyuEcs/I+jdEIOs0VRxev/P1JT8NhfVTy\ngjgPiUzoR9i3bMVTX8Iry9N4Y06Yr9vffrnzM59a2fejGcwKTbnqRabxjxObdLAX\nJn9EaWWnO308+y4Gu108oID9JeLb3LdHySTygGlbb9d63TBNLgP9GhI0gmT6G23k\n64VtyaEXhEKUB2T/7zFDeDJnYLDhYQko0NXvIONb0MpPt/BmYb2XnuNjJ/Gpzj0I\nKkTm+v+rAgMBAAECggEAUro8BdXcTsJtW8vPLng3Yt9quxBvchHjRLrzh7S4TMcb\nj2mN63euhEmAstWHy1hCPxzKPlYDg3RspjApOh+aRRGeSBg9/tuaCD+1CJ0dpJkp\n17fdfM8i/HXVXwWRjFMUC/vWI6SIOu9MV/EpWg8Q70Sit5RfFnIKTbH1eFPNGN/E\na/dAlHlSnS3u9zTfDAo1pVb3GJLsFzmw0vlKQCT8YaC/PAriGSBPxYGlYfRVem3+\nZSVyy4lIH14LOVvQGcBlZ1PflM5cFzYZp4OUXz0piZsNCHPcCu64uylISHM8Gxqt\nOqWU4kdUNqTv/43FGD1Aw7IFiVYyGMbtBNgh5qd1wQKBgQDkfSSNoq5TrBJICid7\n4KXneII9f9q8z6JFrEAYHYFKEwOEWSJRLYL0my8K5Sjx3T8hRTrnp91ijC7+QvMS\nAmOddmIVBhCurmoBZFQOmvyME9TJ8nCDAQpa486g56eJgMfDpK+0lbejJSL7O9Ue\nDqhyA7u/uk/y3IA9fUlOVZyIkQKBgQDgu3BsuDqFhs6xbIxYrY4e76VAkmXk71cQ\nwlqP5sH0J7CRNqQghyQh4mGxdiHOxzwCI3poZN7i47pa9Q8FtazXFOwqVR/HobAD\nkVfz9wW/uwmg8b49SchyV7ANP731tVs7zipqj6PLruRzQvV5Kf6mqQ6PurCGll0K\nPzHlGJBCewKBgQC5PWvBGD7UvxAjL3hLShm2y1Bro5gmsv8QFVHxOxpyf2++gLT9\nszQUMyu0XY0QaRqhUosq/EDTgGso4AZId39jTXK/MKedtvFiJ4CuRqCwv/MntlHZ\nI6LNhRskACsnoyxRRNbeRPMYZSczH5LsR13w8W3pRpdCgdnGACjKRUYewQKBgCMP\n+4Vq5O6KTttNtUPsqBzZhO3jKXSjhvD9ccW72gzu2FR/svHEQ/XpbRaT+MhbO1iW\nEnYRLtk1cJDaZSKd6r6P7BzatR+fcWfNGGze4I2+b80limnjhhuY5MXcaRXZ2sck\n7mc7y/FucwQssUHbNHjqLXRtSzdkZFXB8FXvFCrbAoGAGSgcRrNDDtJDwQMBh0Cw\nZ6cnzpXYfyaMoY9yJ3mVVSbHolVD+Mj/Dt9fiTUaxlkRUFTRXG2vnaH/hRcVBaMd\nxvKM64DjXkJJnd8qP7C03TIIh2w1XDzXFPscfPh143g/3pBJouI8EFCzgd6HeCvA\nMXsrDTjIOjyfEsAu01qaHI0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "saulius-nlp@nlp-win-to-win.iam.gserviceaccount.com",
+  "client_id": "108889252802652213245",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/saulius-nlp%40nlp-win-to-win.iam.gserviceaccount.com"
+}
