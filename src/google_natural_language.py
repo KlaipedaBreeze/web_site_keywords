@@ -10,9 +10,9 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'data\nlp-win-to-win-a56c00c219f
 # Instantiates a client
 client = language.LanguageServiceClient() #.from_service_account_json('nlp-win-to-win-687b51bbcc31.json')
 
-def use_gcloud(trafiltext):
-    with open(trafiltext, 'r',  encoding="utf8") as file:
-        text = file.read()
+def use_gcloud(text):
+    # with open(trafiltext, 'r',  encoding="utf8") as file:
+    #     text = file.read()
         # print(text)
     document = types.Document(
         content=text,
@@ -27,3 +27,4 @@ def use_gcloud(trafiltext):
     # print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
     # print(hhh)
     print(sdf)
+    return sdf
