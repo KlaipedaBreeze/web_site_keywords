@@ -5,7 +5,7 @@ from google.cloud.language import enums
 from google.cloud.language import types
 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'data\nlp-win-to-win-a56c00c219f6.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'data/nlp-win-to-win-a56c00c219f6.json'
 
 # Instantiates a client
 client = language.LanguageServiceClient() #.from_service_account_json('nlp-win-to-win-687b51bbcc31.json')

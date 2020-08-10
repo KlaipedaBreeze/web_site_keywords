@@ -3,6 +3,7 @@ import boto3
 import json
 from rake_nltk import Rake
 import trafilatura
+import os
 
 
 def web_to_text(url):
@@ -13,7 +14,7 @@ def web_to_text(url):
 # text = web_to_text("http://adrien.barbaresi.eu/blog/trafilatura-main-text-content-python.html")
 
 def use_aws(text):
-    client = boto3.client('comprehend')
+    client = boto3.client('comprehend', region_name='us-east-1')
     aws_result = client.batch_detect_key_phrases(TextList=[text[:4000]], LanguageCode='en')
 
 # print(aws_result)
