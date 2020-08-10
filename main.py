@@ -1,7 +1,4 @@
 from flask import Flask, request, render_template
-import pathlib
-import requests
-import trafilatura
 from src.key_words_from_page import web_to_text
 from src.google_natural_language import use_gcloud
 from src.key_words_from_page import use_aws
@@ -20,8 +17,7 @@ def my_form_post():
     aws_result = use_aws(response)
     gcloud_result = use_gcloud(response)
 
-
-    return gcloud_result
+    return response
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1')

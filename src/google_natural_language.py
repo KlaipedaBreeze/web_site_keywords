@@ -19,12 +19,10 @@ def use_gcloud(text):
     sdf = client.analyze_entities(document=document)
 
     unique_values = {}
-    list_of_values = []
-    res = ''
+
     for entity in sdf.entities:
         name = entity.name
         enType = enums.Entity.Type(entity.type).name
-        sal = entity.salience
         if enType not in unique_values.keys():
             unique_values[enType] = []
         if name not in unique_values[enType]:
