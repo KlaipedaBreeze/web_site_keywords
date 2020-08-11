@@ -31,3 +31,15 @@ print(json.dumps(client.batch_detect_entities(TextList=[text], LanguageCode='en'
 #print(json.dumps(comprehend.detect_sentiment(Text=text, LanguageCode='en'),
 #                 sort_keys=True, indent=4))
 #print('End of DetectSentiment\n')
+
+
+
+# def exctract_text(text):
+#     r = Rake(min_length=1, max_length=2)
+#     # Uses stopwords for english from NLTK, and all puntuation characters.
+#     r.extract_keywords_from_text(text)
+#     rankeds = r.get_ranked_phrases()
+#
+#     for word in rankeds:
+#         print(word)
+
