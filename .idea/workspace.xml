@@ -122,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597134088900</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="done">
+      <created>1597134330719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597134330719</updated>
+    </task>
+    <task id="LOCAL-00008" summary="code cleanup">
+      <created>1597134458944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597134458944</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +158,8 @@
     <MESSAGE value="google natural language code edit and clean" />
     <MESSAGE value="aws code edit" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="code cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="code cleanup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596998459537">
@@ -175,9 +190,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="426" y="254" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1597042143263" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597134095434">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597134464583">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597134095434" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597134464583" />
   </component>
 </project>
