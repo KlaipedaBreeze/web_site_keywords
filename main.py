@@ -18,8 +18,8 @@ def my_form_post():
     aws_result = use_aws(response)
     gcloud_result = use_gcloud(response)
     dicts = {}
-    dicts[0] = aws_result
-    dicts[1] =gcloud_result
+    dicts['Amazon AWS'] = aws_result
+    dicts['Google Natural Language'] =gcloud_result
     print(dicts)
     return dicts
 
