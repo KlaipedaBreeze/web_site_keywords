@@ -2,14 +2,15 @@ from flask import Flask, request, render_template
 from src.key_words_from_page import web_to_text
 from src.google_natural_language import use_gcloud
 from src.key_words_from_page import use_aws
-import json
+
     
 app = Flask(__name__)
-app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
+
 
 @app.route('/')
 def my_form():
     return render_template('form.html')
+
 
 @app.route('/', methods=['POST'])
 def my_form_post():
@@ -19,9 +20,9 @@ def my_form_post():
     gcloud_result = use_gcloud(response)
     dicts = {}
     dicts['Amazon AWS'] = aws_result
-    dicts['Google Natural Language'] =gcloud_result
-    print(dicts)
+    dicts['Google Natural Language'] = gcloud_result
     return dicts
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1')

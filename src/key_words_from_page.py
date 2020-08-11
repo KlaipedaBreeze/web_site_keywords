@@ -10,9 +10,7 @@ def web_to_text(url):
 def use_aws(text):
     client = boto3.client('comprehend', region_name='us-east-1')
     aws_result = client.batch_detect_entities(TextList=[text[:4000]], LanguageCode='en')
-
     unique_values = {}
-
     for x in aws_result['ResultList']:
         for y in x['Entities']:
             name = y['Text']
